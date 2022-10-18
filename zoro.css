@@ -1,0 +1,89 @@
+body {
+    background-image: url(../wp2382500-roronoa-zoro-hd-wallpapers.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+
+
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+a {
+    font: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+    color: rgb(200, 187, 88);
+    position: relative;
+    top: 15px;
+    letter-spacing: 1px;
+}
+
+.y5 {
+    position: relative;
+    right: 731px;
+    margin: 10px;
+    color: white;
+    top: 140px;
+    font-size: 35px;
+    background-color: rgb(200, 187, 88);
+    border: 1px solid gray;
+    border-radius: 40px;
+    padding-left: 30px;
+
+}
+
+.head {
+
+    position: relative;
+    /* background-color: gray; */
+    margin: 10px;
+    margin-left: 188px;
+    height: 50px;
+
+}
+
+/* .y{
+    position: fixed;
+    left: 917px;
+    top: 150px;
+    font-size: 35px;
+    border: 1px solid red;
+    border-radius: 40px;
+} */
+
+.date {
+    position: relative;
+    top: 250px;
+    left: 204px;
+    font-size: 20px;
+    display: block;
+    width: 800px;
+    color: rgb(240, 227, 129);
+}
+
+.head a:hover {
+    color: aliceblue;
+}
+
+.center {
+    margin: 0;
+    padding: auto;
+    background-color: gray;
+    position: relative;
+    width: 1538px;
+    top: 312px;
+    right: 10px;
+    align-items: center;
+    text-align: center;
+}
